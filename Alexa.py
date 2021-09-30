@@ -54,6 +54,9 @@ def call_Anuja():
     elif 'Hello,Who are you' in command:
         cmd = talk('I am Arshad')
         print(cmd)
+    elif 'HELLO' in command:
+        cmd = talk('I am college student')
+        print(cmd)
     elif 'how are you' in command:
         cmd = talk('I am fine, thanks for asking')
         print(cmd)
